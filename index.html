@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechWave - Digital Innovation Studio</title>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/split-type"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#" class="nav-logo">
+        TechWave
+        <span class="logo-dot"></span>
+      </a>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div id="particles-js"></div>
+    <div class="hero-content">
+      <h1>Crafting Digital Excellence</h1>
+      <p>
+        We transform ideas into exceptional digital experiences through innovative
+        design and cutting-edge technology.
+      </p>
+      <a href="#contact" class="btn">Start Your Project</a>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <div class="section-title">
+      <h2>Our Expertise</h2>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-palette"></i>
+        </div>
+        <h3>UI/UX Design</h3>
+        <p>Creating intuitive and engaging user experiences that captivate and convert.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-code"></i>
+        </div>
+        <h3>Web Development</h3>
+        <p>Building robust and scalable web applications using cutting-edge technologies.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-mobile-alt"></i>
+        </div>
+        <h3>Mobile Solutions</h3>
+        <p>Developing cross-platform mobile applications that deliver exceptional user experiences.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <div class="section-title">
+      <h2>Featured Work</h2>
+    </div>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="images/portfolio1.jpeg" alt="E-commerce Platform" />
+        <div class="portfolio-overlay">
+          <h3>E-commerce Platform</h3>
+          <p>A full-featured online shopping experience with seamless user journey and secure payments.</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/portfolio2.png" alt="Corporate Website" />
+        <div class="portfolio-overlay">
+          <h3>Corporate Website</h3>
+          <p>Modern corporate website with dynamic content management and analytics integration.</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/portfolio3.jpeg" alt="Mobile App" />
+        <div class="portfolio-overlay">
+          <h3>Mobile App</h3>
+          <p>Cross-platform mobile application with real-time synchronization and offline capabilities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section" id="about">
+    <div class="section-title">
+      <h2>Who We Are</h2>
+    </div>
+    <div class="about-container">
+      <div class="about-text">
+        <h2 class="split-text">Pushing Boundaries in Digital Innovation</h2>
+        <p>
+          We're a team of creative technologists who believe in the power of innovative design and cutting-edge development to transform digital experiences.
+        </p>
+        <div class="skill-bars">
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="95">
+              <span class="skill-label">UI/UX Design</span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="90">
+              <span class="skill-label">Web Development</span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="85">
+              <span class="skill-label">Mobile Development</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-number" data-count="150">0</div>
+            <p>Projects Completed</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-count="98">0</div>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+        <a href="#contact" class="cta-button">Get in Touch</a>
+      </div>
+      <div class="about-image">
+        <div class="about-image-grid">
+          <div class="about-image-item">
+            <img src="images/our team.jpg" alt="Our Team" />
+          </div>
+          <div class="about-image-item">
+            <img src="images/our office.jpg" alt="Our Office" />
+          </div>
+          <div class="about-image-item">
+            <img src="images/working.jpg" alt="Working" />
+          </div>
+          <div class="about-image-item">
+            <img src="images/team meeting.jpg" alt="Team Meeting" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials" id="testimonials">
+    <div class="section-title">
+      <h2>Client Stories</h2>
+    </div>
+    <div class="testimonial-container">
+      <div class="testimonial-track">
+        <div class="testimonial-card active">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">
+              <img src="images/micheal.jpg" alt="John Doe" />
+            </div>
+            <div class="testimonial-author">
+              <h4>John Doe</h4>
+              <p>CEO, Tech Solutions</p>
+            </div>
+          </div>
+          <div class="testimonial-quote">
+            "TechWave transformed our digital presence completely. Their innovative approach and attention to detail resulted in a website that perfectly captures our brand essence."
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">
+              <img src="images/jane.jpg" alt="Sarah Johnson" />
+            </div>
+            <div class="testimonial-author">
+              <h4>Sarah Johnson</h4>
+              <p>Marketing Director</p>
+            </div>
+          </div>
+          <div class="testimonial-quote">
+            "Working with TechWave was a game-changer for our company. Their team's expertise in UX design helped us achieve record-breaking conversion rates."
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">
+              <img src="images/john.jpg" alt="Mike Zhang" />
+            </div>
+            <div class="testimonial-author">
+              <h4>Mike Zhang</h4>
+              <p>Startup Founder</p>
+            </div>
+          </div>
+          <div class="testimonial-quote">
+            "The level of creativity and technical expertise at TechWave is unmatched. They turned our vision into reality and exceeded all expectations."
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-nav"></div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="section-title">
+      <h2>Get In Touch</h2>
+    </div>
+    <div class="contact-form">
+      <form>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Your Name" required />
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Your Email" required />
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Creative Footer -->
+  <footer class="footer">
+    <div class="footer-logo">TechWave</div>
+    <div class="social-icons">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+    <div class="footer-text">
+      <p>&copy; 2025 TechWave. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div class="cursor"></div>
+  <div class="cursor-dot"></div>
+  <script src="script.js"></script>
+</body>
+</html>
