@@ -48,7 +48,7 @@ Welcome to **TechWave**, a modern and responsive website template designed for c
 
 2. Open the project folder:
 
-cd TechWave
+    cd TechWave
 
 ---
 
