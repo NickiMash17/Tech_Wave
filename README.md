@@ -84,12 +84,13 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ---
 
-💬 Contact
-Have questions or feedback? Reach out to me at your-email@example.com or connect with me on LinkedIn.
+## 💬 Contact
+Have questions or feedback? Reach out to me 
 
 ---
 
-Crafted with ❤️ by [Nicolette Mashaba]. Let’s create something amazing together! 🚀
 
-
+## 💡 Crafted with ❤️ by Nicolette Mashaba  Let’s create something amazing together! 🚀
+📧 Email: [nene171408@gmail.com](nene171408@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/nicolette-mashaba-b094a5221/) | [GitHub](https://github.com/NickiMash17) | [Portfolio Website](https://nicolettemashaba.vercel.app/) 
 
